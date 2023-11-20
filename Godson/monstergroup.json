@@ -1,0 +1,7 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_RADIANT",
+    "default": "mon_radiant"
+  }
+]
