@@ -19,7 +19,7 @@
     "name": "Phantasm Origin",
     "description": "A culmination of spiritual cultivation.",
     "volume": "1 ml",
-	"weight": "1 g",
+    "weight": "1 g",
     "symbol": "!",
     "color": "blue",
     "use_action": "DISASSEMBLE",
