@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Phantasmagoria",
+    "name": "<color_white>Phantasmagoria</color>",
+    "maintainers": [ "Hyojason" ],
+    "description": "When the ordinary becomes extraordinary.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]
