@@ -49,7 +49,7 @@
     "id": "devilspawn_voxpopuli",
     "type": "SPELL",
     "name": { "str": "Vox Populi" },
-    "description": "The power of the people stems from their numbers. Yet when the world is emptied of its inhabitants, the voice longs for a speaker. The new ones from afar shalls suffice.",
+    "description": "The power of the people stems from their numbers. Yet when the world is emptied of its inhabitants, the voice longs for a speaker. The new ones from afar shall suffice.",
     "sprite": "fd_fog",
     "message": "A massacre of echoes thunder across the basin of the world, hollowing it out of any dissidents and drowning the cries of sorrow.",
     "valid_targets": [ "ally", "hostile", "ground" ],
