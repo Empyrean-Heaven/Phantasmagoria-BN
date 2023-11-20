@@ -9,4 +9,4 @@ An expansive mod for Cataclysm: Bright Nights.
 ### Premise
 The basic premise of the mod is of everyday, mundane items suddenly having rich history and mystical powers. Like an old Bible gathering dust in a random attic spontaneously becoming sacrosanct, etc. This, however, makes the extraordinary and paranormal extremely common, as you can go to any bookstore in town and grab a Bible to start on your supernatural journey, so bear that in mind.
 # Mod History
-2023.11.20. Godson and Devilspawn added. "Apostate" became "Apostle" thanks to Deinonychus on Discord pointing out the fact Apostates are those who renounce their faith. "2023.11.23." became "2023.11.20." as I misread 11:23 PM to be the date rather than the time. This error was also pointed out by Deinonychus.
+2023.11.20. First Release. Godson and Devilspawn added. "Apostate" became "Apostle" thanks to Deinonychus on Discord pointing out the fact Apostates are those who renounce their faith. "2023.11.23." became "2023.11.20." as I misread 11:23 PM to be the date rather than the time. This error was also pointed out by Deinonychus.
