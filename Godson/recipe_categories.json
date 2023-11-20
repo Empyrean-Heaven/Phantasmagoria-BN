@@ -1,0 +1,15 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PHANTASMAGORIA",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_PHANTASMAGORIA_WEAPON",
+      "CSC_PHANTASMAGORIA_AMMO",
+      "CSC_PHANTASMAGORIA_ARMOR",
+      "CSC_PHANTASMAGORIA_ITEMS",
+      "CSC_PHANTASMAGORIA_SPELLS",
+      "CSC_PHANTASMAGORIA_OTHER"
+    ]
+  }
+]

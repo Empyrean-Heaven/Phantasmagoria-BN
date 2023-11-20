@@ -1,0 +1,72 @@
+[
+  {
+    "type": "mutation",
+    "id": "GODSONWORSHIP",
+    "name": "Godson Worship",
+    "points": 0,
+    "description": "A tradition older than myth and a myth older than tradition. That is the faith of the Lord of Luminence. And you happen to be a devout follower of the Luminous Lord. May His radiance touch your soul and transport it to the highest heaven.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "IRRELIGIOUS", "DEVILSPAWN" ],
+    "spells_learned": [ [ "godson_prayer", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "IRRELIGIOUS",
+    "name": "Irreligious",
+    "points": 0,
+    "description": "Although you accept the logical necessity of a first mover and the prime aspect and maintainer of all existence, you grew up without much religious influence. As a result, you have not fallen into the 'for or against' argument so many who encounter religion during adolescence suffer from. Hence, you do not worship a deity; no deity shall accommodate you.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "GODSONWORSHIP", "GODSONAPOSTATE", "GODSONSAINT", "GODSONINCARNATE", "DEVILSPAWN", "DEVILSPAWNPEON", "DEVILSPAWNSCION", "DEVILSPAWNPRINCE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "GODSONAPOSTATE",
+    "name": "Godson Apostate",
+    "points": 0,
+    "description": "The Lord has blest thee with His Benevolence. Thou art on the right path. Thou Art.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 0.5,
+    "healing_resting": 1.0,
+    "mending_modifier": 2.0,
+    "cancels": [ "IRRELIGIOUS", "DEVILSPAWN" ],
+    "changes_to": [ "GODSONSAINT" ],
+    "spells_learned": [ [ "godson_empathy", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "GODSONSAINT",
+    "name": "Godson Saint",
+    "points": 0,
+    "description": "The Lord has blest thee with His Providence. Thou art on the orthodox path. Thou Art.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 1.0,
+    "healing_resting": 2.0,
+    "mending_modifier": 4.0,
+    "cancels": [ "IRRELIGIOUS", "DEVILSPAWN" ],
+    "changes_to": [ "GODSONINCARNATE" ],
+    "spells_learned": [ [ "godson_angeldescent", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "GODSONINCARNATE",
+    "name": "Godson Incarnate",
+    "points": 0,
+    "description": "Thou art the Lord who has blest Thee with Thine Own Divinity. Thou Art.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 2.0,
+    "healing_resting": 4.0,
+    "mending_modifier": 8.0,
+    "cancels": [ "IRRELIGIOUS", "DEVILSPAWN" ],
+    "spells_learned": [ [ "godson_overlord", 0 ], [ "godson_salvation", 0 ] ]
+  }
+]

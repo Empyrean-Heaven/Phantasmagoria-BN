@@ -1,0 +1,47 @@
+[
+  {
+    "id": "holybook_bible1",
+    "copy-from": "holybook_bible1",
+    "looks_like": "holybook_bible1",
+    "type": "BOOK",
+    "name": { "str": "King James Bible", "str_pl": "copies of King James Bible" },
+    "description": "An English translation of the Christian Bible, which originated in England in the early 1600s.",
+    "skill": "godsonfaith",
+    "required_level": 0,
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": 0,
+    "use_action": { "type": "learn_spell", "spells": [ "godson_churchoflight" ] }
+  },
+  {
+    "id": "holybook_bible2",
+    "copy-from": "holybook_bible2",
+    "looks_like": "holybook_bible2",
+    "type": "BOOK",
+    "name": { "str": "Eastern Orthodox Bible", "str_pl": "copies of Eastern Orthodox Bible" },
+    "description": "An English copy of the Eastern Orthodox translation of The Holy Bible.",
+    "skill": "godsonfaith",
+    "required_level": 0,
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": 0,
+    "use_action": { "type": "learn_spell", "spells": [ "godson_churchoflight" ] }
+  },
+  {
+    "id": "holybook_bible3",
+    "copy-from": "holybook_bible3",
+    "looks_like": "holybook_bible3",
+    "type": "BOOK",
+    "name": { "str": "Gideon Bible", "str_pl": "copies of Gideon Bible" },
+    "description": "An English translation of the Christian Bible, distributed free of charge by Gideons International.",
+    "skill": "godsonfaith",
+    "required_level": 0,
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": 0,
+    "use_action": { "type": "learn_spell", "spells": [ "godson_churchoflight" ] }
+  }
+]

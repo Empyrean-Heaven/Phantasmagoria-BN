@@ -1,0 +1,44 @@
+[
+  {
+    "id": "church",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "hieronotes", "prob": 3 },
+      { "item": "hierodreams", "prob": 2 },
+      { "item": "hierorevelation", "prob": 1 }
+    ]
+  },
+  {
+    "id": "religious_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "distribution": [
+          { "item": "hieronotes", "prob": 9 },
+          { "item": "hierodreams", "prob": 4 },
+          { "item": "hierorevelation", "prob": 2 },
+          { "item": "monomyth", "prob": 1 }
+        ],
+        "prob": 1
+      }
+    ]
+  },
+  {
+    "id": "cathedral_archives",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "item": "hieronotes", "prob": 12 },
+          { "item": "hierodreams", "prob": 8 },
+          { "item": "hierorevelation", "prob": 4 },
+          { "item": "monomyth", "prob": 2 }
+        ],
+        "prob": 10
+      }
+    ]
+  }
+]

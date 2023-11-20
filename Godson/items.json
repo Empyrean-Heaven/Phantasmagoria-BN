@@ -1,0 +1,105 @@
+[
+  {
+    "id": "addapostate",
+	"type": "SPELL",
+	"name": "Add Godson Apostate Trait",
+	"description": "Spell that gives Godson Apostate trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "GODSONAPOSTATE",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "abstract": "basestart",
+    "type": "GENERIC",
+    "category": "drugs",
+    "name": "Phantasm Origin",
+    "description": "A culmination of spiritual cultivation.",
+    "volume": "1 ml",
+	"weight": "1 g",
+    "symbol": "!",
+    "color": "blue",
+    "use_action": "DISASSEMBLE",
+    "flags": [ "NO_REPAIR" ]
+  },
+  {
+    "id": "itemaddapostate",
+    "copy-from": "basestart",
+    "name": "tears of heaven",
+    "description": "You behold in your bosom, a sacred relic entombed in your tears. As you held the holy artifact upon your brow, burning tears arose from your eyes. Overcome with emotion, you lowered it to your lips, giving it a gentle kiss of grace. When you opened your eyes, you witnessed the transformed item. It is a miracle.",
+    "use_action": { "type": "cast_spell", "spell_id": "addapostate", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "id": "godson_halo",
+    "type": "ARMOR",
+    "name": "illuminated halo",
+    "description": "A small ever-revolving disc of warm light that encircles the backside of your head.",
+    "symbol": ",",
+    "color": "light_green",
+    "covers": [ "head" ],
+    "flags": [ "LIGHT_5", "AURA", "SEMITANGIBLE", "OVERSIZE" ]
+  },
+  {
+    "id": "godson_anchorofradiants",
+    "type": "ARMOR",
+    "name": "anchor of Radiants",
+    "description": "An ever-revolving disc of searing light that encircles the entirety of your head. Every so often, you hear the forbidden songs of yore. Blessed are you, Saint.",
+    "symbol": ",",
+    "color": "light_green",
+    "covers": [ "head" ],
+    "emits": [ "emit_radiance" ],
+    "flags": [ "LIGHT_30", "AURA", "SEMITANGIBLE", "OVERSIZE" ]
+  },
+  {
+    "id": "addsaint",
+	"type": "SPELL",
+	"name": "Add Godson Saint Trait",
+	"description": "Spell that gives Godson Saint trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "GODSONSAINT",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "id": "itemaddsaint",
+    "copy-from": "basestart",
+    "name": "blood of golden saints",
+    "description": "As rivers of blood and gore flood the valleys of the Earth, the chosen shall be seated atop the vestigial thrones of soul and spirit. Rejection of flesh is the turning point, Apostate.",
+    "use_action": { "type": "cast_spell", "spell_id": "addsaint", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "id": "addincarnate",
+	"type": "SPELL",
+	"name": "Add Godson Incarnate Trait",
+	"description": "Spell that gives Godson Incarnate trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "GODSONINCARNATE",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "id": "itemaddincarnate",
+    "copy-from": "basestart",
+    "name": "sliver of infinity",
+    "description": "Destiny has foretold of this day. In this place, where destiny is made, the citadel stands proud. As it was ordained. Beyond Good and Evil. This world is your rightful throne, Saint.",
+    "use_action": { "type": "cast_spell", "spell_id": "addincarnate", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  }
+]
