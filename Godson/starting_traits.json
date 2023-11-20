@@ -1,0 +1,14 @@
+[
+  {
+    "id": "NPC_starting_traits",
+	"type": "trait_group",
+	"subtype": "collection",
+	"traits": [
+      { "trait": "GODSONWORSHIP", "prob": 10 },
+      { "trait": "IRRELIGIOUS", "prob": 5 },
+      { "trait": "GODSONAPOSTLE", "prob": 3 },
+      { "trait": "GODSONSAINT", "prob": 2 },
+      { "trait": "GODSONINCARNATE", "prob": 1 }
+    ]
+  }
+]
