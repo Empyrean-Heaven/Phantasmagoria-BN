@@ -1,0 +1,17 @@
+[
+  {
+    "id": "holybook_satanic",
+    "copy-from": "holybook_satanic",
+    "looks_like": "holybook_satanic",
+    "type": "BOOK",
+    "name": { "str": "The Satanic Bible", "str_pl": "copies of The Satanic Bible" },
+    "description": "A collection of essays, observations, and rituals published by Anton LaVey in 1969.",
+    "skill": "devilspawnveneration",
+    "required_level": 0,
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": 0,
+    "use_action": { "type": "learn_spell", "spells": [ "devilspawn_nighteye" ] }
+  }
+]

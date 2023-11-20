@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cathedral_archives",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "item": "holybook_satanic", "prob": 6 },
+          { "item": "darkestdarkness", "prob": 5 },
+          { "item": "tolerantnight", "prob": 4 },
+          { "item": "ashfall", "prob": 3 },
+          { "item": "twinpeaks", "prob": 2 }
+        ],
+        "prob": 10
+      }
+    ]
+  }
+]

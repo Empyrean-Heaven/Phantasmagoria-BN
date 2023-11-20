@@ -1,0 +1,13 @@
+[
+  {
+    "id": "NPC_starting_traits",
+	"type": "trait_group",
+	"subtype": "collection",
+	"traits": [
+      { "trait": "DEVILSPAWN", "prob": 10 },
+      { "trait": "DEVILSPAWNPEON", "prob": 5 },
+      { "trait": "DEVILSPAWNSCION", "prob": 3 },
+      { "trait": "DEVILSPAWNPRINCE", "prob": 2 }
+    ]
+  }
+]

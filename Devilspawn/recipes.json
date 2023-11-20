@@ -1,0 +1,54 @@
+[
+  {
+    "result": "itemaddpeon",
+    "type": "recipe",
+    "category": "CC_PHANTASMAGORIA",
+    "subcategory": "CSC_PHANTASMAGORIA_ITEMS",
+    "skill_used": "devilspawnveneration",
+    "difficulty": 2,
+    "skills_required": [ [ "devilspawnveneration", 1 ] ],
+    "time": "10 seconds",
+    "autolearn": false,
+    "book_learn": [ [ "holybook_satanic", 1 ] ],
+    "components": [ [ [ "holybook_satanic", 1 ] ] ]
+  },
+  {
+    "result": "itemaddscion",
+    "type": "recipe",
+    "category": "CC_PHANTASMAGORIA",
+    "subcategory": "CSC_PHANTASMAGORIA_ITEMS",
+    "skill_used": "devilspawnveneration",
+    "difficulty": 3,
+    "skills_required": [ [ "devilspawnveneration", 2 ] ],
+    "time": "10 seconds",
+    "autolearn": false,
+    "book_learn": [ [ "darkestdarkness", 1 ], [ "tolerantnight", 1 ], [ "ashfall", 1 ], [ "twinpeaks", 1 ] ],
+    "components": [ [ [ "blood", 1 ] ], [ [ "bone", 1 ] ] ]
+  },
+  {
+    "result": "itemaddprince",
+    "type": "recipe",
+    "category": "CC_PHANTASMAGORIA",
+    "subcategory": "CSC_PHANTASMAGORIA_ITEMS",
+    "skill_used": "devilspawnveneration",
+    "difficulty": 4,
+    "skills_required": [ [ "devilspawnveneration", 3 ] ],
+    "time": "10 seconds",
+    "autolearn": false,
+    "book_learn": [ [ "tolerantnight", 1 ], [ "ashfall", 1 ], [ "twinpeaks", 1 ] ],
+    "components": [ [ [ "blood", 100 ] ], [ [ "bone", 100 ] ] ]
+  },
+  {
+    "result": "godsinew",
+    "type": "recipe",
+    "category": "CC_PHANTASMAGORIA",
+    "subcategory": "CSC_PHANTASMAGORIA_AMMO",
+    "skill_used": "devilspawnveneration",
+    "difficulty": 4,
+    "skills_required": [ [ "devilspawnveneration", 3 ] ],
+    "time": "10 seconds",
+    "autolearn": false,
+    "book_learn": [ [ "tolerantnight", 1 ], [ "ashfall", 1 ], [ "twinpeaks", 1 ] ],
+    "components": [ [ [ "sinew", 66 ] ] ]
+  }
+]

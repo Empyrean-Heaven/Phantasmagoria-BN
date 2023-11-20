@@ -1,0 +1,12 @@
+[
+  {
+    "type": "effect_type",
+    "id": "devilspawn_sight",
+    "name": [ "Tainted Sight" ],
+    "desc": [ "You can see vivedly in the dark." ],
+    "apply_message": "Darkness is your ally.",
+    "remove_message": "You thought darkness was your ally?",
+    "rating": "good",
+    "flags": [ "EFFECT_NIGHT_VISION" ]
+  }
+]

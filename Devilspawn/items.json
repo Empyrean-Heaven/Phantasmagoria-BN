@@ -1,0 +1,163 @@
+[
+  {
+    "id": "devilspawn_decay",
+    "type": "ARMOR",
+    "name": "midnight madness",
+    "description": "Wreathed in darkness, you pour forth vapid misery, dampening the nearby landscape.",
+    "symbol": ",",
+    "color": "light_green",
+    "covers": [ "head" ],
+    "emits": [ "emit_shadow_field" ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE" ]
+  },
+  {
+    "id": "devilspawn_bone",
+    "type": "TOOL",
+    "looks_like": "longsword",
+    "copy-from": "longsword",
+    "category": "weapons",
+    "name": { "str": "sword of woe", "str_pl": "swords of woe" },
+    "description": "A genuine gift from a lord to his subject. The sword was wrought in the flames of the deepest infernos and the blade was forged from the blood of saints and the tears of angels. The material used to craft it is fabled to be a bone from a dead god. Use it savagely, Princeps.",
+    "price": 250000,
+    "price_postapoc": 12000,
+    "material": [ "superalloy", "silver" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "ammo": "godsinew",
+    "max_charges": 666,
+    "charges_per_use": 6,
+    "use_action": [
+      {
+        "target": "devilspawn_bonerot",
+        "msg": "You feel the agonizing roars of a mighty power entombed within the sword.",
+        "menu_text": "Awaken",
+        "need_charges": 6,
+        "active": true,
+        "need_charges_msg": "The dead dreamer slumbers without disturbance.",
+        "type": "transform"
+      },
+      "ARTIFACT"
+    ],
+    "artifact_data": { "effects_activated": [ "AEA_HURTALL", "AEA_HEAL", "AEA_PAIN", "AEA_DIM" ] },
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NO_UNLOAD" ]
+  },
+  {
+    "id": "devilspawn_bonerot",
+    "type": "TOOL",
+    "looks_like": "longsword",
+    "category": "weapons",
+    "name": { "str": "sword of gluttony", "str_pl": "swords of gluttony" },
+    "description": "With great power, comes great responsibility. Let there be carnage.",
+    "to_hit": 6,
+    "bashing": 66,
+    "cutting": 666,
+    "price": 666,
+    "price_postapoc": 666,
+    "material": [ "superalloy", "silver" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "ammo": "godsinew",
+    "max_charges": 666,
+    "turns_per_charge": 6,
+    "weight": "666 g",
+    "volume": "6666 ml",
+    "techniques": [ "VORPAL", "WIDE" ],
+    "use_action": [
+      {
+        "type": "transform",
+        "msg": "You quell the dreamer with sweet memories.",
+        "menu_text": "Lull",
+        "target": "devilspawn_bone"
+      }
+    ],
+    "artifact_data": { "charge_type": "ARTC_HP", "effects_wielded": [ "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE" ] },
+    "flags": [ "UNBREAKABLE_MELEE", "DURABLE_MELEE", "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "addpeon",
+	"type": "SPELL",
+	"name": "Add Villanus Trait",
+	"description": "Spell that gives Villanus trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "DEVILSPAWNPEON",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "id": "itemaddpeon",
+    "copy-from": "basestart",
+    "name": "moonlight sonata",
+    "description": "The impeccable melody of myriad worlds fills the soul with inescapable torment and glee. One may only find solace under the banner of the Martyred Monarch. At the height of the end times, one must devour the sonata made of scripture.",
+    "use_action": { "type": "cast_spell", "spell_id": "addpeon", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "id": "addscion",
+	"type": "SPELL",
+	"name": "Add Proles Orci Trait",
+	"description": "Spell that gives Proles Orci trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "DEVILSPAWNSCION",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "id": "itemaddscion",
+    "copy-from": "basestart",
+    "name": "twilight serenade",
+    "description": "In a temporal world, can one last forever? In a dreamscape, can one escape into the undreamed of world? In a world of sin, can anyone be redeemed?",
+    "use_action": { "type": "cast_spell", "spell_id": "addscion", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "id": "addprince",
+	"type": "SPELL",
+	"name": "Add Princeps Inferorum Trait",
+	"description": "Spell that gives Princeps Inferorum trait.",
+	"valid_targets": [ "self" ],
+	"effect": "mutate",
+	"effect_str": "DEVILSPAWNPRINCE",
+	"flags": [ "MUTATE_TRAIT", "SILENT" ],
+	"energy_source": "MANA",
+	"min_damage": 10000,
+	"max_damage": 10000
+  },
+  {
+    "id": "itemaddprince",
+    "copy-from": "basestart",
+    "name": "coup de grâce",
+    "description": "You are worthy of the King's attention. You have been granted the honor of being recorded in the Annals of the Dead. Arise, my Prince.",
+    "use_action": { "type": "cast_spell", "spell_id": "addprince", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "flags": [ "TRADER_AVOID", "INEDIBLE", "NUTRIENT_OVERRIDE" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "godsinew",
+    "category": "spare_parts",
+    "price": 0,
+    "price_postapoc": 666,
+    "name": { "str": "divine sinew" },
+    "symbol": "=",
+    "color": "light_red",
+    "looks_like": "thread",
+    "description": "A tough sinew cut from a corpse threaded exactly sixty-six times.",
+    "material": "flesh",
+    "volume": "666 ml",
+    "weight": "66 g",
+    "ammo_type": "godsinew",
+    "count": 6,
+    "stack_size": 6
+  }
+]

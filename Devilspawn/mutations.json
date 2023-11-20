@@ -1,0 +1,61 @@
+[
+  {
+    "type": "mutation",
+    "id": "DEVILSPAWN",
+    "name": "Devilspawn",
+    "points": 0,
+    "description": "You have proffered your soul into everlasting bondage to your liege, the Nightmare King. The King of Monsters welcomes all the depraved into his Court of Sacrilege. All must toil to rise through the ranks.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "IRRELIGIOUS", "GODSONWORSHIP" ],
+    "spells_learned": [ [ "devilspawn_ageofdarkness", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEVILSPAWNPEON",
+    "name": "Villanus",
+    "points": 0,
+    "description": "You are nothing more than a peasant in the dominion of damnation. Unworthy to even the fickle and profane alike. Most Devilspawn die as a Villanus. A most princely exchange in grand favor of the Mad King.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 1.0,
+    "healing_resting": 1.0,
+    "mending_modifier": 1.0,
+    "cancels": [ "IRRELIGIOUS", "GODSONWORSHIP" ],
+    "changes_to": [ "DEVILSPAWNSCION" ],
+    "spells_learned": [ [ "devilspawn_voxpopuli", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEVILSPAWNSCION",
+    "name": "Proles Orci",
+    "points": 0,
+    "description": "You have become noteworthy in the realm of carnage. Your status is no longer destitute. Perhaps the King was wise in taking you in.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 3.0,
+    "healing_resting": 3.0,
+    "mending_modifier": 3.0,
+    "cancels": [ "IRRELIGIOUS", "GODSONWORSHIP" ],
+    "changes_to": [ "DEVILSPAWNPRINCE" ],
+    "spells_learned": [ [ "devilspawn_shaed", 0 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEVILSPAWNPRINCE",
+    "name": "Princeps Inferorum",
+    "points": 0,
+    "description": "You are an esteemed Prince in the Court of Sacrilege. Of the myriad domains the Ever-wounded King rules over, he decided to grant you the prestigious title of Prince of Hell.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "healing_awake": 6.0,
+    "healing_resting": 6.0,
+    "mending_modifier": 6.0,
+    "cancels": [ "IRRELIGIOUS", "GODSONWORSHIP" ],
+    "spells_learned": [ [ "devilspawn_sword", 0 ] ]
+  }
+]
