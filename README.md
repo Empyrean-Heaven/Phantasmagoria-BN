@@ -8,3 +8,5 @@ An expansive mod for Cataclysm: Bright Nights.
 'God is dead. And we have killed Him.' 『Forgotten Memories』 p. 810, by J. J. Johnson
 ### Premise
 The basic premise of the mod is of everyday, mundane items suddenly having rich history and mystical powers. Like an old Bible gathering dust in a random attic spontaneously becoming sacrosanct, etc. This, however, makes the extraordinary and paranormal extremely common, as you can go to any bookstore in town and grab a Bible to start on your supernatural journey, so bear that in mind.
+# Current Features
+2023.11.23. Godson and Devilspawn added.
