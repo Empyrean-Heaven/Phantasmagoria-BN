@@ -46,17 +46,6 @@
     "flags": [ "LIGHT_5", "AURA", "SEMITANGIBLE", "OVERSIZE" ]
   },
   {
-    "id": "godson_anchorofradiants",
-    "type": "ARMOR",
-    "name": "anchor of Radiants",
-    "description": "An ever-revolving disc of searing light that encircles the entirety of your head. Every so often, you hear the forbidden songs of yore. Blessed are you, Saint.",
-    "symbol": ",",
-    "color": "light_green",
-    "covers": [ "head" ],
-    "emits": [ "emit_radiance" ],
-    "flags": [ "LIGHT_30", "AURA", "SEMITANGIBLE", "OVERSIZE" ]
-  },
-  {
     "id": "addsaint",
 	"type": "SPELL",
 	"name": "Add Godson Saint Trait",
