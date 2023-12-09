@@ -18,7 +18,7 @@
         "name": "pure radiance",
         "color": "magenta",
         "transparent": false,
-        "monster_spawn_chance": 15,
+        "monster_spawn_chance": 7,
         "monster_spawn_count": 1,
         "monster_spawn_radius": 1,
         "monster_spawn_group": "GROUP_RADIANT",
@@ -26,7 +26,7 @@
       }
     ],
     "priority": 9,
-    "half_life": "10 seconds",
+    "half_life": "7 seconds",
     "accelerated_decay": true,
     "wandering_field": "fd_godsonlight",
     "gas_absorption_factor": 15,
