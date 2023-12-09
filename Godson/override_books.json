@@ -43,5 +43,20 @@
     "time": "30 m",
     "fun": 0,
     "use_action": { "type": "learn_spell", "spells": [ "godson_churchoflight" ] }
+  },
+  {
+    "id": "holybook_bible4",
+    "copy-from": "holybook_bible4",
+    "looks_like": "holybook_bible4",
+    "type": "BOOK",
+    "name": { "str": "Catholic Bible", "str_pl": "copies of Catholic Bible" },
+    "description": "An English copy of the Catholic Bible, including the whole 73 book canon recognized by the Catholic church.",
+    "skill": "godsonfaith",
+    "required_level": 0,
+    "max_level": 1,
+    "intelligence": 10,
+    "time": "30 m",
+    "fun": 0,
+    "use_action": { "type": "learn_spell", "spells": [ "godson_churchoflight" ] }
   }
 ]
