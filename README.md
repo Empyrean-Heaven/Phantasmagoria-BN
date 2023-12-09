@@ -11,4 +11,4 @@ The basic premise of the mod is of everyday, mundane items suddenly having rich 
 # Mod History
 2023.11.20. First Release. Godson and Devilspawn added. "Apostate" became "Apostle" thanks to Deinonychus on Discord pointing out the fact Apostates are those who renounce their faith. "2023.11.23." became "2023.11.20." as I misread 11:23 PM to be the date rather than the time. This error was also pointed out by Deinonychus.
 
-2023.12.09. Updated the mod to include the newly added Catholic Bible.
+2023.12.09. Updated the mod to include the newly added Catholic Bible. Fixed multiple aspects of the mod that weren't working.
