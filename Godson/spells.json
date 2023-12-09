@@ -136,7 +136,7 @@
     "id": "godson_angeldescent",
     "type": "SPELL",
     "name": { "str": "Radiant Illumination" },
-    "description": "The angels of the Lord are the Radiants. The Radiants may anchor upon a sufficiently devout follower of the Brightlord and be made manifest in the phenomenal world. Cast thrice upon the same hallowed earth to bring forth the Radiants.",
+    "description": "The angels of the Lord are the Radiants. The Radiants may anchor upon a sufficiently devout follower of the Brightlord and be made manifest in the phenomenal world. Cast thrice upon the same hallowed earth to bring forth the Radiants. Be warned, for the Radiants know only devastation. It is the sole duty of the Lord to rebuild, after all.",
     "sprite": "fd_dazzling",
     "valid_targets": [ "ground" ],
     "message": "As you attune yourself to the heavenly flame, you begin to hear hymns forgotten by sinful man. As tears stream down your face in bliss, you manage to catch a glimpse of an almighty palm pressing down on your forehead. He is here. He has come! Rejoice!",
