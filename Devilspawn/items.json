@@ -1,16 +1,5 @@
 [
   {
-    "id": "devilspawn_decay",
-    "type": "ARMOR",
-    "name": "midnight madness",
-    "description": "Wreathed in darkness, you pour forth vapid misery, dampening the nearby landscape.",
-    "symbol": ",",
-    "color": "light_green",
-    "covers": [ "head" ],
-    "emits": [ "emit_shadow_field" ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE" ]
-  },
-  {
     "id": "devilspawn_bone",
     "type": "TOOL",
     "looks_like": "longsword",
