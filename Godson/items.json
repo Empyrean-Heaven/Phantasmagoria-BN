@@ -43,7 +43,7 @@
     "symbol": ",",
     "color": "light_green",
     "covers": [ "head" ],
-    "flags": [ "LIGHT_5", "AURA", "SEMITANGIBLE", "OVERSIZE" ]
+    "flags": [ "LIGHT_5", "AURA", "SEMITANGIBLE", "OVERSIZE", "ZERO_WEIGHT" ]
   },
   {
     "id": "addsaint",
