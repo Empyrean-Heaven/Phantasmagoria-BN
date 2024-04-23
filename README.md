@@ -1,5 +1,5 @@
 # Phantasmagoria-BN
-An expansive mod for Cataclysm: Bright Nights. It is highly recommended to play with my other mod, the "Nine Cloud Dream" for a more comprehensive and unified structure.
+An expansive mod for Cataclysm: Bright Nights. NOTE: It is highly recommended to play together with my other mod, the "Nine Cloud Dream" for a more comprehensive and unified structure.
 ### Lore
 'With the advent of the Cataclysm, myriad worlds entwined with that of our own. Unusual creatures from abnormal regions of reality congregated to our homeworld. Among the throng of these abominations, the one we have been waiting for arrived. He, whom humanity worshipped since the beginning. The One. The Only. With his arrival, a rejuvenation of Divinity occurred here in our dominion. Dusty relics, once thought to be nothing more than placebo for the poor, demonstrated their holistic powers. Sacred scriptures, which were but fancy words in the past, now came to life. We welcome the descent of God the Almighty. The poets sang of ye; always and forever ye.' 『Notes of a Redeemed Soothsayer』 p. 13, by Skalan Artiska, Monarch of Evernight
 
