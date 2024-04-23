@@ -42,8 +42,7 @@
     "description": "A small ever-revolving disc of warm light that encircles the backside of your head.",
     "symbol": ",",
     "color": "light_green",
-    "covers": [ "head" ],
-    "flags": [ "LIGHT_5", "AURA", "SEMITANGIBLE", "OVERSIZE", "ZERO_WEIGHT" ]
+    "flags": [ "LIGHT_5", "ZERO_WEIGHT" ]
   },
   {
     "id": "addsaint",
