@@ -10,7 +10,7 @@
     "skills_required": [ [ "godsonfaith", 1 ] ],
     "time": "10 seconds",
     "autolearn": false,
-    "book_learn": [ [ "holybook_bible1", 1 ], [ "holybook_bible2", 1 ], [ "holybook_bible3", 1 ] ],
+    "book_learn": [ [ "holybook_bible1", 1 ], [ "holybook_bible2", 1 ], [ "holybook_bible3", 1 ], [ "holybook_bible4", 1 ] ],
     "components": [ [ [ "holy_symbol", 1 ], [ "holy_symbol_wood", 1 ], [ "small_relic", 1 ] ] ]
   },
   {
