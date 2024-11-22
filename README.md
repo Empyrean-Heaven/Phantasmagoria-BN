@@ -13,4 +13,4 @@ The basic premise of the mod is of everyday, mundane items suddenly having rich 
 
 2023.12.09. Updated the mod to include the newly added Catholic Bible. Fixed multiple aspects of the mod that weren't working.
 
-2024.11.22. Updated recipes to include the Catholic Bible because i forgot.
+2024.11.22. Updated recipes to include the Catholic Bible because I forgot.
